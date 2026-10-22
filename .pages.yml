@@ -1,0 +1,23 @@
+media:
+  input: assets
+  output: assets
+
+content:
+  - name: profile
+    label: Profile Details
+    type: file
+    path: content.json
+    format: json
+    fields:
+      - name: name
+        label: Name
+        type: string
+      - name: bio
+        label: Bio
+        type: string
+      - name: instagram
+        label: Instagram Link
+        type: string
+      - name: photo
+        label: Profile Photo Path
+        type: string
